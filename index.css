@@ -1,0 +1,71 @@
+body, input {
+  font-family: Open Sans, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#photos {
+  display: flex;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  margin: 100px auto 20px auto;
+}
+
+#photos img {
+  height: 200px;
+  margin: 7px;
+}
+
+#searchbox {
+  position: fixed;
+  top:20px;
+  left:0;
+  right:0;
+  display: flex;
+  justify-content: center;
+}
+
+#searchbox input {
+  width: 80%;
+  max-width: 500px;
+  border: 1px solid grey;
+  height: 2em;
+  border-radius: 8px;
+  padding: .5em 1em;
+}
+
+#photo-form {
+  border: 1px solid grey;
+  border-radius: 8px;
+  min-width: 200px;
+  max-width: 300px;
+  padding: 10px;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  z-index: 2;
+}
+
+#modal-background {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index: 1;
+  display: none;
+}
+
+#add-icon {
+  font-size: 75px;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+}
+
+#add-icon i {
+  text-shadow: 3px 3px 16px #2726346e;
+}

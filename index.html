@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.3/dist/jquery.fancybox.min.css" />
+    <link rel="icon"
+      type="image/png"
+      href="icon.png">
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.283.1.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.3/dist/jquery.fancybox.min.js"></script>
+    <script src="https://use.fontawesome.com/61b64bb9e3.js"></script>
+    <script src="index.js"></script>
+    <title>
+      Photos
+    </title>
+  </head>
+  <body>
+
+    <div id="add-icon" title="Add a photo">
+      <i class="fa fa-plus-circle" ></i>
+    </div>
+
+    <div id="modal-background">
+      <form id="photo-form">
+        <input type="file" name="pic" accept="image/*" id="photo-upload"><br />
+        <input type="submit">
+      </form>
+    </div>
+
+    <form id="searchbox">
+      <input type="text" name="search" placeholder="Search your photos"/>
+    </form>
+
+    <div id="photos">
+
+
+    </div>
+
+  </body>
+</html>
